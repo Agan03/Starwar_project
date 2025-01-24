@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#title-image {
+  width: 300px;
+  margin: 20px auto;
+  display: block;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.image-container div img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid #fff;
+}
